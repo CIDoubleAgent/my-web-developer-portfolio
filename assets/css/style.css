@@ -1,5 +1,7 @@
 body {
     font-family: ‘Trebuchet MS’, ‘Lucida Sans Unicode’, ‘Lucida Grande’, ‘Lucida Sans’, Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
 }
 
 .header {
@@ -23,21 +25,81 @@ body {
 }
 
 .header nav ul li {
+    display: flex;
     display: inline-block;
     list-style: none;
     font-size: 10pt;
     color: paleturquoise;
-    padding: 5px;
+    padding: 1px;
+    height: 22px;
+}
+
+.header nav ul li a {
+    border-bottom: solid;
 }
 
 .banner {
     display: flex;
-    height: 120px;
-    width: inherit;
+    background-image: url("../images/banner.png");
+    justify-content: flex-end;
 }
 
-.main{
+.banner h1 {
+    background-color: paleturquoise;
+    margin-top: 100px;
+    margin-right: 40px;
+    margin-bottom: 20px;
+}
+
+.main {
     display: flex;
-    display: inline-block;
+    color: royalblue;
+}
+
+.main h1 {
     height: 60px;
+    margin-top: 10px;
+    padding-right: 10px;
+    padding-left: 120px;
+    border-right: solid;
+}
+
+.main p {
+    margin-top: 10px;
+    padding-left: 10px;
+}
+
+.work {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.work h1{
+    color: royalblue;
+    height: 60px;
+    margin-top: 10px;
+    padding-right: 10px;
+    padding-left: 120px;
+    border-right: solid;
+}
+
+.footer {
+    display: flex;
+    height: 120px;
+    color: royalblue;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer h1 {
+    display: flex;
+    padding-left: 120px;
+    padding-right: 5px;
+    border-right: solid;
+}
+
+.footer ul li {
+    display: inline-block;
+    list-style: none;
+    font-size: 10pt;
 }
