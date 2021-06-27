@@ -15,24 +15,43 @@ body {
     display: flex;
     flex-direction: column;
     background-color:whitesmoke;
+    height: auto;
+    max-width: 100%;
 }
 
 h2 {
     display: flex;
     justify-content:flex-end;
     text-align-last: right;
-    width: 180px;
+    width: 170px;
     padding-right: 10px;
     font-size: 35pt;
+}
+.about-me,
+.work,
+.contact-me {
+    width: 100%;
+    height: auto;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.work ul li:hover {
+    border-color: lightsalmon;
 }
 
 /*Header - 02*/
 .header {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+    height: auto;
     background-color: rgb(54, 54, 54);
-    height: 45px;
+    width: 100%;
+    padding: 5px 0px 5px 0px;
 }
 
 .header h1 {
@@ -49,8 +68,9 @@ h2 {
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-evenly;
-    margin-right: 45px;
-    width: 300px;
+    margin: 0px 40px 0px 25px;
+    width: 250px;
+    padding: 10px 0px 10px 0px;
 }
 
 .header nav ul li {
@@ -83,15 +103,13 @@ h2 {
     background-color: paleturquoise;
     color:rgb(54, 54, 54);
     margin: 100px 50px 20px 0px;
-    padding-right: 10px;
-    padding-left: 10px;
+    padding: 0px 10px 4px 10px;
 }
 /*About Me - 06*/
 .about-me {
     display: flex;
     justify-content: center;
     color: rgb(31, 52, 97);
-    margin-bottom: 20px;
     margin-top: 20px;
 }
 
@@ -102,16 +120,25 @@ h2 {
 }
 
 .about-me p {
+    display: flex;
     height:fit-content; 
-    width: 845px;
+    width: 855px;
     padding-left:  15px;
+}
+
+.about-me p img {
+    display: flex;
+    display: inline-block;
+    height:inherit;
+    margin-right: 15px;
+    max-width: 140px;
 }
 
 /*Work - 07*/
 .work {
     display: flex;
     justify-content: center;
-    margin-bottom: 20px;
+    padding-top: 20px;
 }
 
 .work h2{
@@ -122,18 +149,25 @@ h2 {
 .work ul {
     display: flex;
     flex-wrap: wrap;
-    list-style: none;
+    list-style-type: none;
     justify-content: space-evenly;
+    justify-content: center;
     border-left: solid;
-    width: 100%;
-    max-width: 860px;
+    max-width: 870px;
     border-color: rgb(31, 52, 97);
 }
 
-.work img {
+.work ul li {
     display: flex;
-    display: inline-block;
+    border: solid;
+    border-color: turquoise;
     margin: 5px;
+}
+
+.work img {
+    height: auto;
+    max-width: 100%;
+    
 }
 
 /*Contact Me - 08*/
@@ -143,6 +177,7 @@ h2 {
     justify-content: center;
     color: rgb(31, 52, 97);
     margin-bottom: 20px;
+    padding-top: 20px;
 }
 
 .contact-me h2 {
@@ -152,9 +187,8 @@ h2 {
 
 .contact-me ul {
     display: flex;
-    justify-content:space-evenly;
-    flex-wrap: nowrap;
-    width: 860px;
+    justify-content:space-evenly;   
+    width: 870px;
 }
 
 .contact-me ul li {
@@ -165,6 +199,9 @@ h2 {
 }
 
 .contact-me ul li a {
+    display:flex;
+    flex-wrap: nowrap;
     border-bottom: solid;
     color: rgb(31, 52, 97);
+    margin: 5px;
 }
