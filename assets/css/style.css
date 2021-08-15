@@ -23,7 +23,7 @@ h2 {
     display: flex;
     justify-content:flex-end;
     text-align-last: right;
-    width: 170px;
+    width: 180px;
     padding-right: 10px;
     font-size: 35pt;
 }
@@ -40,6 +40,12 @@ a:link {
 
 .work ul li:hover {
     border-color: lightsalmon;
+}
+
+.article,
+.section,
+.footer{
+    justify-content: center;
 }
 
 /*Header - 02*/
@@ -115,14 +121,13 @@ a:link {
 
 .about-me h2 {
     display: flex;
-    align-content: center;
     border-right: solid;
 }
 
 .about-me p {
     display: flex;
-    height:fit-content; 
-    width: 855px;
+    height:fit-content;
+    max-width: 855px;
     padding-left:  15px;
 }
 
@@ -153,7 +158,7 @@ a:link {
     justify-content: space-evenly;
     justify-content: center;
     border-left: solid;
-    max-width: 870px;
+    width: 870px;
     border-color: rgb(31, 52, 97);
 }
 
@@ -178,6 +183,7 @@ a:link {
     color: rgb(31, 52, 97);
     margin-bottom: 20px;
     padding-top: 20px;
+    width: 100%;
 }
 
 .contact-me h2 {
@@ -188,12 +194,13 @@ a:link {
 .contact-me ul {
     display: flex;
     justify-content:space-evenly;   
-    width: 870px;
+    max-width: 870px;
+    width: 70%;
 }
 
 .contact-me ul li {
     display: flex;
-    display: inline-block;
+    display: inline;
     list-style: none;
     font-size: 10pt;
 }
@@ -204,4 +211,107 @@ a:link {
     border-bottom: solid;
     color: rgb(31, 52, 97);
     margin: 5px;
+}
+
+@media only screen and (max-width: 1240px) {
+    h2 {
+        font-size: 25pt;
+        width: 180px;
+    }
+
+    .work ul,
+    .contact-me ul {
+        width: 570px;
+    }
+
+    .work ul li {
+        width: 350px;
+    }
+    .about-me p {
+        padding-left: 5px;
+        width: 565px;
+    }
+}
+
+
+@media only screen and (max-width: 720px) {
+    h2 {
+        font-size: 15pt;
+        width: 90px;
+    }
+
+    .work ul,
+    .contact-me ul {
+        width: 370px;
+    }
+
+    .work ul li {
+        width: 300px;
+    }
+
+    .about-me p {
+        padding-left: 5px;
+        width: 365px;
+    }
+
+    .banner h1 {
+        margin: 100px 20px 20px 0px;
+    }
+
+    .contact-me ul li {
+        font-size: 7pt;
+    }
+}
+
+@media only screen and (max-width: 416px) {
+    h2 {
+        font-size: 15pt;
+        width: 50px;
+    }
+
+    .about-me p {
+        display: block;
+    }
+
+    .work ul,
+    .contact-me ul {
+        width: 240px;
+    }
+
+    .about-me p {
+        padding-left: 5px;
+        width: 235px;
+    }
+
+    .contact-me ul li {
+        font-size: 6pt;
+    }
+    
+    .banner h1 {
+        margin: 100px 20px 20px 0px;
+    }
+}
+
+@media only screen and (max-width: 370px) {
+    .banner h1 {
+        font-size: 20px;
+    }
+
+    h2 {
+        font-size: 12pt;
+    }
+
+    .contact-me ul li {
+        font-size: 5pt;
+    }
+
+    .work ul,
+    .contact-me ul {
+        width: 220px;
+    }
+
+    .about-me p {
+        padding-left: 5px;
+        width: 215px;
+    }
 }
