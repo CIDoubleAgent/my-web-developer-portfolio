@@ -38,7 +38,7 @@ a:link {
     text-decoration: none;
 }
 
-.work ul li:hover {
+.work ul a:hover {
     border-color: lightsalmon;
 }
 
@@ -162,7 +162,7 @@ a:link {
     border-color: rgb(31, 52, 97);
 }
 
-.work ul li {
+.work ul a {
     display: flex;
     border: solid;
     border-color: turquoise;
@@ -173,6 +173,20 @@ a:link {
     height: auto;
     max-width: 100%;
     
+}
+
+.primaryImage {
+    width: 835px;
+    height: auto;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.secondaryImage {
+    width: 410px;
+    height: auto;
+    object-fit: cover;
+    overflow: hidden;
 }
 
 /*Contact Me - 08*/
@@ -242,7 +256,7 @@ a:link {
         width: 400px;
     }
 
-    .work ul li {
+    .work ul a {
         width: 370px;
     }
 
