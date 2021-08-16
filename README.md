@@ -15,13 +15,13 @@ Created for the purpose of providing information on myself and ways to contact m
 as well as to display selected projects i have completed.
 
 ## Screenshots
-![Web Developer Portfolio_1](https://github.com/CIDoubleAgent/my-web-developer-portfolio/blob/main/images/Web%20Developer%20Portfolio_1.png?raw=true)
+![Web Developer Portfolio 1](https://github.com/CIDoubleAgent/my-web-developer-portfolio/blob/main/images/Web%20Developer%20Portfolio_1.png?raw=true)
 
-![Web Developer Portfolio_2](https://github.com/CIDoubleAgent/my-web-developer-portfolio/blob/main/images/Web%20Developer%20Portfolio_2.png?raw=true)
+![Web Developer Portfolio 2](https://github.com/CIDoubleAgent/my-web-developer-portfolio/blob/main/images/Web%20Developer%20Portfolio_2.png?raw=true)
 
-![Web Developer Portfolio_3](https://github.com/CIDoubleAgent/my-web-developer-portfolio/blob/main/images/Web%20Developer%20Portfolio_3.png?raw=true)
+![Web Developer Portfolio 3](https://github.com/CIDoubleAgent/my-web-developer-portfolio/blob/main/images/Web%20Developer%20Portfolio_3.png?raw=true)
 
-![Web Developer Portfolio_4](https://github.com/CIDoubleAgent/my-web-developer-portfolio/blob/main/images/Web%20Developer%20Portfolio_4.png?raw=true)
+![Web Developer Portfolio 4](https://github.com/CIDoubleAgent/my-web-developer-portfolio/blob/main/images/Web%20Developer%20Portfolio_4.png?raw=true)
 
 ## MIT Liscense
 Copyright © 2021 Nicholas Zabkar
