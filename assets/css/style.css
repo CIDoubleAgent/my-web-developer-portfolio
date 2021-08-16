@@ -34,12 +34,20 @@ h2 {
     height: auto;
 }
 
+figcaption {
+    
+    font-size: 20px;
+    color: whitesmoke;
+    background-color:rgb(31, 52, 97);
+    padding: 5px;
+}
+
 a:link {
     text-decoration: none;
 }
 
 .work ul a:hover {
-    border-color: lightsalmon;
+    border-color: goldenrod;
 }
 
 .article,
@@ -94,7 +102,7 @@ a:link {
 }
 
 .header nav ul li a:hover {
-    color: lightsalmon;
+    color: goldenrod;
 }
 
 /*Banner Image - 04*/
@@ -137,6 +145,8 @@ a:link {
     height:inherit;
     margin-right: 15px;
     max-width: 140px;
+    border: solid;
+    border-color: rgb(94, 192, 209);
 }
 
 /*Work - 07*/
@@ -165,7 +175,7 @@ a:link {
 .work ul a {
     display: flex;
     border: solid;
-    border-color: turquoise;
+    border-color: rgb(94, 192, 209);
     margin: 5px;
 }
 
@@ -187,6 +197,22 @@ a:link {
     height: auto;
     object-fit: cover;
     overflow: hidden;
+}
+
+.primaryImage figure {
+    position: relative;
+}
+
+.primaryImage figure figcaption {
+    position:absolute; bottom:0; left:0
+}
+
+.secondaryImage figure {
+    position: relative;
+}
+
+.secondaryImage figure figcaption {
+    position:absolute; bottom:0; left:0
 }
 
 /*Contact Me - 08*/
