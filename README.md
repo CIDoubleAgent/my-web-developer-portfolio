@@ -17,7 +17,11 @@ as well as to display selected projects i have completed.
 ## Screenshots
 ![Web Developer Portfolio_1](https://github.com/CIDoubleAgent/my-web-developer-portfolio/blob/main/images/Web%20Developer%20Portfolio_1.png?raw=true)
 
-![Web Developer Portfolio_2](https://github.com/CIDoubleAgent/my-web-developer-portfolio/blob/main/images/Web%20Developer%20Portfolio_2.png?raw=true) ![Web Developer Portfolio_3](https://github.com/CIDoubleAgent/my-web-developer-portfolio/blob/main/images/Web%20Developer%20Portfolio_3.png?raw=true)
+![Web Developer Portfolio_2](https://github.com/CIDoubleAgent/my-web-developer-portfolio/blob/main/images/Web%20Developer%20Portfolio_2.png?raw=true)
+
+![Web Developer Portfolio_3](https://github.com/CIDoubleAgent/my-web-developer-portfolio/blob/main/images/Web%20Developer%20Portfolio_3.png?raw=true)
+
+![Web Developer Portfolio_4](https://github.com/CIDoubleAgent/my-web-developer-portfolio/blob/main/images/Web%20Developer%20Portfolio_4.png?raw=true)
 
 ## MIT Liscense
 Copyright © 2021 Nicholas Zabkar
@@ -29,4 +33,4 @@ The above copyright notice and this permission notice shall be included in all c
 THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 ## Contact Information
-GitHub: CIDoubleAgent
+GitHub: CIDoubleAgent.
